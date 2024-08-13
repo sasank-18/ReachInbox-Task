@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("../styles/theme.css");
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .background-light400_dark100 {
+    @apply bg-light-400 dark:bg-dark-100;
+    /* //backgorund */
+  }
+  .background-light200_dark200 {
+    @apply bg-light-200 dark:bg-dark-200;
+    /* // sidenavbar */
+  }
+  .background-light300_dark300 {
+    @apply bg-light-300 dark:bg-dark-300;
+    /* // card */
+  }
+  .background-light300_dark100 {
+    @apply bg-light-300 dark:bg-dark-100;
+  }
+  .background-light400_dark500 {
+    @apply bg-light-400 dark:bg-dark-500;
+    /* tags  */
+  }
+  .background-light400_dark500 {
+    @apply bg-light-100 dark:bg-dark-400;
+    /* tags  */
+  }
+  .border-light_dark{
+    @apply  border-gray-300 dark:border-gray-700
+  }
+}
