@@ -34,7 +34,7 @@ const page = () => {
           />
           Sign Up with Google
         </Button>
-        <Button className=" w-40%   mt-7 border-gray-300 bg-primary-500 text-white ">
+        <Button disabled={true} className=" w-40%   mt-7 border-gray-300 bg-primary-500 text-white ">
           Create an Account
         </Button>
       </CardContent>

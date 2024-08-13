@@ -21,7 +21,7 @@ const config = {
       },
     },
     extend: {
-      
+      display: ["group-hover"],
       fontFamily: {
         sans: ["var(--font-sans)"],
       },

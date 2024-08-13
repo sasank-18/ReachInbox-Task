@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter as FontSans, Space_Grotesk } from "next/font/google"
 import "./globals.css";
-// import { ThemeProvider } from "@/context/ThemeProvider";
+import { ThemeProvider } from "@/context/ThemeProvider";
 
  
 const fontSans = FontSans({
@@ -26,9 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <ThemeProvider> */}
+      <ThemeProvider>
       <body className={`${fontSans.variable} ${spaceGrotesk.variable}`}>{children}</body>
-      {/* </ThemeProvider> */}
+      </ThemeProvider>
     </html>
   );
 }
